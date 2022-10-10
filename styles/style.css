@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.back{
+    background-color: #0020f4;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+    
+}
+
+.losgo {
+    margin-top: 20px;
+}
+
+.dflex {
+    display: flex;
+    
+}
+
+.navb {
+    display: flex;
+}
+
+.navbar {
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.navbar1 {
+    font-size: 16px;
+}
+
+.navba {
+    color: #ffffff;
+    margin-top: 17px;
+}
+
+.ex {
+    
+    color: #171717;
+    background-color: #ffffff;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 28px;
+}
+
+.rect11 {
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    margin-top: 400px;
+    margin-left: 260px;
+    font-size: 28px;
+}
+
+.rects {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.text2 {
+    width: 900px;
+}
+
+.textle {
+    margin-bottom: 18px;
+}
+
+.textle1 {
+    margin-top: 60px;
+}
+.textle2 {
+    margin-bottom: 75px;
+}
+.button1 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #0020f4;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 200px;
+    border: none;
+}
+
+.ag {
+    text-align: center;
+}
+
+.blue {
+    background-color: #0020f4;
+}
+
+
+
+
+
+.h11 {
+    background-color: #0a22f4;
+    padding-top: 120px;
+    /* padding-left: 240px; */
+    font-size: 32px;
+    color: #ffffff;
+    margin-left: 160px;
+}
+
+.text11 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+.map {
+    
+    height: 197px;
+    width: 463px;
+}
+
+.conta{
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+}
+
+.message {
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 10px;
+    
+    
+}
+
+.mobile {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+.div222 {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    margin-top: 55px;
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.messa {
+    margin-top: 55px;
+    color: #ffffff;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.lab {
+    background-color: #0a22f4;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+}
+.labb {
+    background-color: #0a22f4;
+    padding-top: 200px;
+}
+
+.name {
+    display: block;
+    background-color: #0a22f4;
+    margin-bottom: 40px;
+    font-size: 16px;
+    width: 400px;
+    border: none;
+}
+.mess {
+    display: block;
+    background-color: #0a22f4;
+    margin-bottom: 40px;
+    font-size: 16px;
+    width: 400px;
+    height: 100px;
+    border: none;
+}
+
+.divf {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divf1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.but {
+    margin-left: 270px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+    color: black;
+    font-size: 16px;
+    border-radius: 28px;
+    border: none;
+}
+
+.h55 {
+    margin-bottom: 10px;
+    margin-top: 200px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.hearts {
+    width: 25px;
+    height: 25px;
+    margin-top: 200px;
+}
+
+.h555 {
+    margin-top: 200px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.damz {
+    display: flex;
+}
+
+.foter {
+    padding-bottom: 20px;
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    display: none;
+}
+.fontss {
+    font-family: 'HelveticaNeue';
+}
+
+
+@media (max-width:1024px) {
+    nav {
+        display: none;
+    }
+    .losgo {
+        margin-top: 40px;
+        
+        width: 100px;
+        height: 55px;
+        
+    }
+
+    .rect11 {
+        display: flex;
+        width: 636px;
+        height: 380px;
+        position: absolute;
+        top: 150px;
+       
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text1 {
+        
+        
+        font-size: 28px;
+        
+        margin-left: 90px;
+        width: 636px;
+        margin-top: 250px;
+       
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .rects {
+        width: 290px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+
+    .text2 {
+        width: 650px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textle {
+        margin-bottom: 18px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textle1 {
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .button1 {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        background-color: #0020f4;
+        border-radius: 15px;
+        color: #ffffff;
+        font-size: 13px;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .text11 {
+        display: none;
+    }
+
+    .h11 {
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+    
+
+    .labb {
+        order: 1;
+        padding-top: 20px;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .conta {
+        order: 2;
+    }
+
+    .map {
+        width: 350px;
+        height: 200px;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+
+    .mess {
+        height: 20px;
+    }
+
+    .divf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .but {
+        margin: auto;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        padding-left: 150px;
+        padding-right: 150px;
+        color: black;
+        font-size: 16px;
+        border-radius: 28px;
+        border: none;
+    }
+
+    .div222 {
+        width: 500px;
+        display: flex;
+        margin-left: 30px;
+        justify-content: space-evenly;
+    }
+
+    .lines {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+
+
+}
